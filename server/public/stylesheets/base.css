@@ -1,0 +1,52 @@
+.modal-dialog{
+    overflow-y: initial
+}
+.modal-body{
+    height: 55vh;
+    overflow-y: auto;
+}
+
+body{
+    background: lightgrey;
+}
+
+.card{
+    width: 400px;
+    height: 90vh;
+}
+.card-body{
+    overflow-y: auto;
+    max-height: 90vh;
+}
+
+.rf-tab:hover,
+.rf-tab.active {
+    border-bottom: 2px solid #2196F3
+}
+
+.rf-tab {
+    margin: 2px 5px 0px 5px;
+    padding-bottom: 10px;
+    cursor: pointer
+}
+
+.line {
+    background-color: #CFD8DC;
+    height: 1px;
+    width: 100%
+}
+
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
+select:focus,
+input:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: 1px solid #2196F3 !important;
+    outline-width: 0 !important;
+    font-weight: 400
+}

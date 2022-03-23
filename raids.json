@@ -1,0 +1,410 @@
+{
+    "raid bosses": {
+        "standard": {
+            "normal": [
+    
+            ],
+            "hard": [
+
+            ],
+            "omega": [
+
+            ],
+            "tier 1": [
+                {
+                    "en": "Lvl 100 Nezha",
+                    "jp": "Lv100 ナタク",
+                    "level": 100
+                },
+                {
+                    "en": "Lvl 100 Twin Element",
+                    "jp": "Lv100 フラム＝グラス",
+                    "level": 100
+                },
+                {
+                    "en": "Lvl 100 Macula Marius",
+                    "jp": "Lv100 マキュラ・マリウス",
+                    "level": 100
+                },
+                {
+                    "en": "Lvl 100 Medusa",
+                    "jp": "Lv100 メドゥーサ",
+                    "level": 100
+                },
+                {
+                    "en": "Lvl 100 Apollo",
+                    "jp": "Lv100 アポロン",
+                    "level": 100
+                },
+                {
+                    "en": "Lvl 100 Dark Angel Olivia",
+                    "jp": "Lv100 Dエンジェル・オリヴィエ",
+                    "level": 100
+                }
+            ],
+            "tier 2": [
+                {
+                    "en": "Lvl 100 Athena",
+                    "jp": "Lv100 アテナ",
+                    "level": 100
+                },
+                {
+                    "en": "Lvl 100 Grani",
+                    "jp": "Lv100 グラニ",
+                    "level": 100
+                },
+                {
+                    "en": "Lvl 100 Baal",
+                    "jp": "Lv100 バアル",
+                    "level": 100
+                },
+                {
+                    "en": "Lvl 100 Garuda",
+                    "jp": "Lv100 ガルーダ",
+                    "level": 100
+                },
+                {
+                    "en": "Lvl 100 Odin",
+                    "jp": "Lv100 オーディン",
+                    "level": 100
+                },
+                {
+                    "en": "Lvl 100 Lich",
+                    "jp": "Lv100 リッチ",
+                    "level": 100
+                }
+
+            ],
+            "primarch": [
+                {
+                    "en": "Lvl 100 Michael",
+                    "jp": "Lv100 ミカエル",
+                    "level": 100
+                },
+                {
+                    "en": "Lvl 100 Gabriel",
+                    "jp": "Lv100 ガブリエル",
+                    "level": 100
+                },
+                {
+                    "en": "Lvl 100 Uriel",
+                    "jp": "Lv100 ウリエル",
+                    "level": 100
+                },
+                {
+                    "en": "Lvl 100 Raphael",
+                    "jp": "Lv100 ラファエル",
+                    "level": 100
+                }
+
+            ],
+            "nightmare": [
+                {
+                    "en": "Lvl 100 Grand Order",
+                    "jp": "Lv100 ジ・オーダー・グランデ",
+                    "level": 100
+                },
+                {
+                    "en": "Lvl 100 Proto Bahamut",
+                    "jp": "Lv100 プロトバハムート",
+                    "level": 100
+                },
+                {
+                    "en": "Lvl 100 Huanglong",
+                    "jp": "Lv100 黄龍",
+                    "level": 100
+                },
+                {
+                    "en": "Lvl 100 Qilin",
+                    "jp": "Lv100 黒麒麟",
+                    "level": 100
+                }
+
+            ],
+            "ultimate": [
+                {
+                    "en": "Lvl 150 Ultimate Bahamut",
+                    "jp": "Lv150 アルティメットバハムート",
+                    "level": 150
+                }
+            ]
+        },
+        "impossible": {
+            "story": [
+                {
+                    "en": "Lvl 110 Rose Queen",
+                    "jp": "Lv110 ローズクイーン",
+                    "level": 110
+                }
+            ],
+            "omega": [
+                {
+                    "en": "Lvl 100 Tiamat Omega Ayr",
+                    "jp": "Lv100 ティアマト・マグナ＝エア",
+                    "level": 100
+                },
+                {
+                    "en": "Lvl 100 Colossus Omega",
+                    "jp": "Lv100 コロッサス・マグナ",
+                    "level": 100
+                },
+                {
+                    "en": "Lvl 100 Leviathan Omega",
+                    "jp": "Lv100 リヴァイアサン・マグナ",
+                    "level": 100
+                },
+                {
+                    "en": "Lvl 100 Yggdrasil Omega",
+                    "jp": "Lv100 ユグドラシル・マグナ",
+                    "level": 100
+                },
+                {
+                    "en": "Lvl 100 Luminiera Omega",
+                    "jp": "Lv100 シュヴァリエ・マグナ",
+                    "level": 100
+                },
+                {
+                    "en": "Lvl 100 Celeste Omega",
+                    "jp": "Lv100 セレスト・マグナ",
+                    "level": 100
+                }
+            ],
+            "omega II": [
+                {
+                    "en": "Lvl 120 Shiva",
+                    "jp": "Lv120 シヴァ",
+                    "level": 120
+                },
+                {
+                    "en": "Lvl 120 Europa",
+                    "jp": "Lv120 エウロペ",
+                    "level": 120
+                },
+                {
+                    "en": "Lvl 120 Godsworn Alexiel",
+                    "jp": "Lv120 ゴッドガード・ブローディア",
+                    "level": 120
+                },
+                {
+                    "en": "Lvl 120 Grimnir",
+                    "jp": "Lv120 グリームニル",
+                    "level": 120
+                },
+                {
+                    "en": "Lvl 120 Metatron",
+                    "jp": "Lv120 メタトロン",
+                    "level": 120
+                },
+                {
+                    "en": "Lvl 120 Avatar",
+                    "jp": "Lv120 アバター",
+                    "level": 120
+                }
+            ],
+            "tier 1": [
+                {
+                    "en": "Lvl 120 Nezha",
+                    "jp": "Lv120 ナタク",
+                    "level": 120
+                },
+                {
+                    "en": "Lvl 120 Twin Elements",
+                    "jp": "Lv120 フラム＝グラス",
+                    "level": 120
+                },
+                {
+                    "en": "Lvl 120 Macula Marius",
+                    "jp": "Lv120 マキュラ・マリウス",
+                    "level": 120
+                },
+                {
+                    "en": "Lvl 120 Medusa",
+                    "jp": "Lv120 メドゥーサ",
+                    "level": 120
+                },
+                {
+                    "en": "Lvl 120 Apollo",
+                    "jp": "Lv120 アポロン",
+                    "level": 120
+                },
+                {
+                    "en": "Lvl 120 Dark Angel Olivia",
+                    "jp": "Lv120 Dエンジェル・オリヴィエ",
+                    "level": 120
+                }
+            ],
+            "tier 3": [
+                {
+                    "en": "Lvl 120 Prometheus",
+                    "jp": "Lv120 プロメテウス",
+                    "level": 120
+                },
+                {
+                    "en": "Lvl 120 Ca Ong",
+                    "jp": "Lv120 カー・オン",
+                    "level": 120
+                },
+                {
+                    "en": "Lvl 120 Gilgamesh",
+                    "jp": "Lv120 ギルガメッシュ",
+                    "level": 120
+                },
+                {
+                    "en": "Lvl 120 Morrigna",
+                    "jp": "Lv120 バイヴカハ",
+                    "level": 120
+                },
+                {
+                    "en": "Lvl 120 Hector",
+                    "jp": "Lv120 ヘクトル",
+                    "level": 120
+                },
+                {
+                    "en": "Lvl 120 Anubis",
+                    "jp": "Lv120 アヌビス",
+                    "level": 120
+                }
+            ],
+            "ennead": [
+                {
+                    "en": "Lvl 120 Osiris",
+                    "jp": "Lv120 オシリス",
+                    "level": 120
+                },
+                {
+                    "en": "Lvl 120 Horus",
+                    "jp": "Lv120 ホルス",
+                    "level": 120
+                }
+            ],
+            "malice": [
+                {
+                    "en": "Lvl 150 Tiamat Malice",
+                    "jp": "Lv150 ティアマト・マリス",
+                    "level": 150
+                },
+                {
+                    "en": "Lvl 150 Leviathan Malice",
+                    "jp": "Lv150 リヴァイアサン・マリス",
+                    "level": 150
+                },
+                {
+                    "en": "Lvl 150 Phronesis",
+                    "jp": "Lv150 フロネシス",
+                    "level": 150
+                },
+                {
+                    "en": "Lvl 150 Luminiera Malice",
+                    "jp": "Lv150 シュヴァリエ・マリス",
+                    "level": 150
+                },
+                {
+                    "en": "Lvl 150 Anima-Animus Core",
+                    "jp": "Lv150 アニマ・アニムス・コア",
+                    "level": 150
+                }
+            ],
+            "6 star": [
+                {
+                    "en": "Huanglong & Qilin (Impossible",
+                    "jp": "黄龍・黒麒麟HL",
+                    "level": 120
+                },
+                {
+                    "en": "Lvl 150 Lucilius",
+                    "jp": "Lv150 ルシファー",
+                    "level": 150
+                },
+                {
+                    "en": "The Four Primarchs",
+                    "jp": "四大天司ＨＬ",
+                    "level": 200
+                },
+                {
+                    "en": "Lvl 200 Lindwurm",
+                    "jp": "Lv200 リンドヴルム",
+                    "level": 200
+                }
+
+            ],
+            "six-dragon": [
+                {
+                    "en": "Lvl 200 Wilnas",
+                    "jp": "Lv200 ウィルナス",
+                    "level": 200
+                },
+                {
+                    "en": "Lvl 200 Wamdus",
+                    "jp": "Lv200 ワムデュス",
+                    "level": 200
+                },
+                {
+                    "en": "Lvl 200 Galleon",
+                    "jp": "Lv200 ガレヲン",
+                    "level": 200
+                },
+                {
+                    "en": "Lvl 200 Ewiyar",
+                    "jp": "Lv200 イーウィヤ",
+                    "level": 200
+                },
+                {
+                    "en": "Lvl 200 Lu Woh",
+                    "jp": "Lv200 ル・オー",
+                    "level": 200
+                },
+                {
+                    "en": "Lvl 200 Fediel",
+                    "jp": "Lv200 フェディエル",
+                    "level": 200
+                }
+            ],
+            "nightmare": [
+                {
+                    "en": "Lvl 150 Proto Bahamut",
+                    "jp": "Lv150 プロトバハムート",
+                    "level": 150
+                },
+                {
+                    "en": "Lvl 200 Akasha",
+                    "jp": "Lv200 アーカーシャ",
+                    "level": 200
+                },
+                {
+                    "en": "Lvl 200 Grand Order",
+                    "jp": "Lv200 ジ・オーダー・グランデ",
+                    "level": 200
+                },
+                {
+                    "en": "Lvl 200 Ultimate Bahamut",
+                    "jp": "Lv200 アルティメットバハムート",
+                    "level": 200
+                }
+            ],
+            "astral": [
+                {
+                    "en": "Lvl 250 Lucilius",
+                    "jp": "Lv250 ルシファー",
+                    "level": 250
+                },
+                {
+                    "en": "Lvl 250 Beelzebub",
+                    "jp": "Lv250 ベルゼバブ",
+                    "level": 250
+                },
+                {
+                    "en": "Lvl 250 Belial",
+                    "jp": "Lv250 ベリアル",
+                    "level": 250
+                }
+            ],
+            "super ultimate": [
+                {
+                    "en": "Lvl 300 Super Ultimate Bahamut",
+                    "jp": "Lv300 スーパーアルティメットバハムート",
+                    "level": 300
+                }
+            ]
+        }
+    }
+}
