@@ -9,7 +9,7 @@ import com.thoughtworks.binding.Binding.Var
 import com.thoughtworks.binding.Binding.BindingSeq
 import org.scalajs.dom
 import org.scalajs.dom.console
-
+import scala.scalajs.js
 import scala.collection.mutable
 
 trait RaidFinderClient {
@@ -42,6 +42,10 @@ class RaidFinderClientImpl(webSocketUrl: String) extends RaidFinderClient {
     private val onWebSocketClose = (wsClient: WebSocketConnection) => {
         console.log("CLOSED")
         wsClient.newConnection()}
+
+    js.timers.setInterval(10000) {
+            wsClient.sendRequest(AllRaidBossesRequest())
+    }
 
     private def handleRaidBossesResponse(raidBosses: Seq[RaidBoss]): Unit = {
         raidBosses.foreach{raidBoss =>
