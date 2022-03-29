@@ -9,6 +9,9 @@ import org.scalajs.dom.raw.HTMLElement
 import raidfinder.client.ViewModel._
 import raidfinder.client.syntax._
 import org.scalajs.dom.raw.Event
+import scala.scalajs.js
+import org.scalajs.dom
+import js.Dynamic.global
 
 object MainContent {
     @html
@@ -28,7 +31,6 @@ object MainContent {
                     </div>
                 </div>
             </div>
-        
         Constants(bossDialog, main.bind)
     }
 }
