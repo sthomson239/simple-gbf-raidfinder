@@ -32,6 +32,16 @@ lazy val server = (project in file("server"))
     scalaJSProjects := Seq(client),
     pipelineStages in Assets := Seq(scalaJSPipeline),
     compile in Compile := ((compile in Compile) dependsOn scalaJSPipeline).value,
+    herokuProcessTypes in Compile := Map(
+      "web" -> "target/universal/stage/bin/raidfinder-server -Dhttp.port=$PORT",
+    ),
+    herokuIncludePaths in Compile := Seq(
+      "server/app",
+      "server/conf/application.conf",
+      "server/public"
+    ),
+    herokuSkipSubProjects in Compile := false,
+    herokuAppName in Compile := "simple-gbf-raidfinder",
     scalaVersion := "2.13.1",
     name := "raidfinder-server",
     libraryDependencies ++= Seq(

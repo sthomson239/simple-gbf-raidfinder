@@ -4,7 +4,7 @@ import com.thoughtworks.binding.Binding.Var
 import com.thoughtworks.binding
 import org.lrng.binding.html
 import org.scalajs.dom
-import org.scalajs.dom.{document, window}
+import org.scalajs.dom.{console, document, window}
 import org.scalajs.dom.raw._
 
 import scala.scalajs.js

@@ -30,7 +30,7 @@ object RaidFinder {
 
 class RaidFinder(statuses: Source[Status, _])(implicit materializer: Materializer, actorSystem: ActorSystem) {
     import RaidFinder._
-    implicit val timeout: Timeout = 2.seconds
+    implicit val timeout: Timeout = 10.seconds
     private val activeBossesManager = actorSystem.actorOf(ActiveBossesManager())
     private val raidInfos = statuses.map(StatusParser.parse).collect{case Some(x) => x}.ask[Option[RaidInfo]](parallelism=5)(activeBossesManager).collect{case Some(x) => x}
 
@@ -43,12 +43,6 @@ class RaidFinder(statuses: Source[Status, _])(implicit materializer: Materialize
 
     def getRaidInfos(bossName: String): Future[Source[RaidInfo, _]] = {
         Future.successful(raidInfos.filter(_.raidBoss.displayName == bossName))
-        /**
-        raidInfoPartitioner ? StreamPartitioner.PartitionByName(bossName) match {
-        case response: Future[Source[RaidInfo, _]] =>
-            response
-        }
-        **/
     }
 
     def getActiveBosses: Future[collection.mutable.Map[String, RaidBoss]] = {

@@ -12,7 +12,7 @@ object ActiveBossesManager {
     case class GetRaidBosses()
 
     lazy val readRaidsJson: mutable.Map[String, RaidBoss] = {
-        val jsonString = scala.io.Source.fromFile("./raids.json").mkString
+        val jsonString = scala.io.Source.fromResource("raids.json").mkString
         val data = ujson.read(jsonString)
         for (
             (sectionName, section) <- data("raid bosses").obj;

@@ -30,7 +30,8 @@ class RaidSocketActor(out: ActorRef, raidFinder: RaidFinder)(implicit materializ
   private val handleRequest: PartialFunction[RequestMessage, _] = {
     case _: AllRaidBossesRequest =>
       raidFinder.getActiveBosses onComplete {
-        case Success(activeBosses) => push(AllRaidBossesResponse(activeBosses.values.toSeq))
+        case Success(activeBosses) =>
+          push(AllRaidBossesResponse(activeBosses.values.toSeq))
         case Failure(_) => {}
       }
     case req: FollowRequest =>
@@ -45,7 +46,7 @@ class RaidSocketActor(out: ActorRef, raidFinder: RaidFinder)(implicit materializ
         val sink: Sink[RaidInfo, Future[Done]] = Sink.foreach{
           raidInfo => push(RaidInfoResponse(raidInfo))
         }
-        val killSwitch = bossSource.viaMat(KillSwitches.single)(Keep.right).toMat(sink)(Keep.left).run()
+        val killSwitch = bossSource.log("Error").viaMat(KillSwitches.single)(Keep.right).toMat(sink)(Keep.left).run()
         following += bossName -> killSwitch
 
       case Failure(_) => {}
@@ -56,6 +57,4 @@ class RaidSocketActor(out: ActorRef, raidFinder: RaidFinder)(implicit materializ
     following(bossName).shutdown()
     following -= bossName
   }
-
-
 }

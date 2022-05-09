@@ -8,7 +8,7 @@ import akka.stream.scaladsl._
 import twitter4j._
 
 object TwitterStreamer {
-    def newSource(twitterStream: twitter4j.TwitterStream, filterTerms: Seq[String])(implicit materializer: Materializer): Source[Status, NotUsed] = {
+  def newSource(twitterStream: twitter4j.TwitterStream, filterTerms: Seq[String])(implicit materializer: Materializer): Source[Status, NotUsed] = {
     val source1 = Source.actorRef(
       completionMatcher = {
         case Done =>
@@ -18,7 +18,7 @@ object TwitterStreamer {
       bufferSize = 100,
       overflowStrategy = OverflowStrategy.dropHead
     )
-    val (statusActor, source) = source1.preMaterialize()
+    val (statusActor, source) = source1.toMat(BroadcastHub.sink)(Keep.both).run()
 
     val listener = new StatusAdapter() {
       override def onStatus(status: Status): Unit = statusActor ! status

@@ -14,4 +14,8 @@ addSbtPlugin("org.portable-scala" % "sbt-scala-native-crossproject" % "1.1.0")
 
 addSbtPlugin("org.portable-scala" % "sbt-scalajs-crossproject" % "1.1.0")
 
+addSbtPlugin("com.heroku" % "sbt-heroku" % "2.1.4")
+
+addSbtPlugin("com.typesafe.sbt" % "sbt-native-packager" % "1.5.2")
+
 libraryDependencies += "com.thesamet.scalapb" %% "compilerplugin" % "0.11.1"
