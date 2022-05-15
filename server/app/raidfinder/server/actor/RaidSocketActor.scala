@@ -31,7 +31,7 @@ class RaidSocketActor(out: ActorRef, raidFinder: RaidFinder)(implicit materializ
     case _: AllRaidBossesRequest =>
       raidFinder.getActiveBosses onComplete {
         case Success(activeBosses) =>
-          push(AllRaidBossesResponse(activeBosses.values.toSeq))
+          push(AllRaidBossesResponse(activeBosses.values.toSeq.reverse))
         case Failure(_) => {}
       }
     case req: FollowRequest =>
