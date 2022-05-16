@@ -14,7 +14,7 @@ import raidfinder.client.views._
 object Application {
     @JSExport
     def main(args: Array[String]): Unit = {
-        val url = "ws://" + window.location.host + "/ws/raids"
+        val url = "wss://" + window.location.host + "/ws/raids"
         val client: RaidFinderClient = new RaidFinderClientImpl(url)
 
         val currentTime: Var[Double] = Var(js.Date.now())
