@@ -4,7 +4,7 @@ This project aims to build a simple raidfinder for the game [Granblue Fantasy](h
 A raidfinder is a utility tool used by players to easily find raid codes that are posted to Twitter in real time.
 It can be accessed from [Here](http://simple-gbf-raidfinder.herokuapp.com/)
 
-![Screenshot](https://imgur.com/LWBhOjR)
+![Screenshot](https://imgur.com/LWBhOjR.png)
 
 ## Currently Supported Features
 
